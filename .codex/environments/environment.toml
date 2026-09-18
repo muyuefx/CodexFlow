@@ -1,0 +1,11 @@
+version = 1
+name = "Codex Flow"
+
+[setup]
+script = ""
+
+[[actions]]
+name = "Codex Flow"
+icon = "tool"
+command = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File "G:\Project\CodexFlow\Open-In-Codex.ps1"'
+platform = "win32"
